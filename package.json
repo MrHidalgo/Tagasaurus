@@ -4,7 +4,7 @@
   "description": "Tag the Planet!",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron . && nodemon index.js"
   },
   "repository": "https://github.com/mantzaris/Tagasaurus",
   "keywords": [
@@ -23,6 +23,8 @@
     "electron-reloader": "^1.2.0"
   },
   "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
     "install": "^0.13.0"
   }
 }
